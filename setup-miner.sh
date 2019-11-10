@@ -39,8 +39,8 @@ EOF
 # NODES="--node x.y.z:p --node ..."
 # CHAIN="--chain n" or empty
 cat <<EOF > /home/kadena-miner/env
-NODES=
-PUBLIC_KEY=
+NODES= --node 47.245.32.72:443 --node 138.68.19.247:4433
+PUBLIC_KEY=d8879e2c815c62796b0f61e26ecf4f0c69c7c941f657100f8373a08900eeeb8f
 CHAIN=
 EOF
 
